@@ -27,3 +27,16 @@ li:nth-child(n+6){
   float:right;
   list-style: none;
 }
+
+li{
+  margin: 20px;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+a:hover{
+  color: orange;
+}
