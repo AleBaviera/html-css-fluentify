@@ -6,8 +6,11 @@
 body{
   background-color: black;
 }
-
-
+/*
+.container{
+  margin: 0;
+  padding: 0 5%;
+} */
 header{
   background-color: blue;
   position: relative;
@@ -39,4 +42,17 @@ a{
 }
 a:hover{
   color: orange;
+}
+
+
+section{
+  height: 200px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+
+footer{
+  height: 100px;
+  background-color: blue;
 }
