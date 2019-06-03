@@ -13,7 +13,7 @@ body{
   padding: 0 5%;
 } */
 header{
-  background-color: blue;
+  background-color: #0d325a;
   position: relative;
 }
 header::after{
@@ -33,27 +33,51 @@ li:nth-child(n+6){
 }
 
 li{
-  margin: 20px;
-  padding: 20px;
+  margin-: 5px;
+  padding: 5px;
+}
+
+ li a img{
+  width: 100px;
+  height: auto;
+
 }
 a{
+  font-size: 10px;
   text-decoration: none;
+  color: white;
+  text-transform: uppercase;s
+}
+li:nth-child(-n+6) a:hover{
+  color: orange;
+}
+button{
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 10%;
+}
+#login{
+  border: 1px solid blue;
+  background-color: inherit;
   color: white;
   text-transform: uppercase;
 }
-a:hover{
-  color: orange;
+
+#piano{
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
 }
-
-
 section{
   height: 200px;
   background-color: white;
   border-bottom: 1px solid black;
 }
-
+#primasez{
+  background-color: #0d325a;
+}
 
 footer{
   height: 100px;
-  background-color: blue;
+  background-color: #0d325a;
 }
